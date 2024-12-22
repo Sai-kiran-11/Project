@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main  # Run the workflow when code is pushed to the main branch
-
+      - "*"
 jobs:
   run-python-script:
     runs-on: ubuntu-latest
